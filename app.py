@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 app.secret_key = "Secret Key"
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:drait123@db-project.c9osooio4c8m.ap-south-1.rds.amazonaws.com:3306/mydb'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:drait123@db-project.c9osooio4c8m.ap-south-1.rds.amazonaws.com:3306/db-project'
 
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
